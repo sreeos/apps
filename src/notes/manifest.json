@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.notes",
+  "name": "Notes",
+  "version": "1.0.0",
+  "description": "Quick notes, saved as you type. Example of an app storing data in its own folder.",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "🗒️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 620,
+  "height": 420
+}

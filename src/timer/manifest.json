@@ -1,0 +1,17 @@
+{
+  "id": "sreeos.timer",
+  "name": "Focus Timer",
+  "version": "1.0.0",
+  "description": "A Pomodoro timer that notifies you when it's time for a break. Example of notifications and settings.",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "⏱️",
+  "entry": "index.html",
+  "permissions": ["notify"],
+  "width": 320,
+  "height": 300,
+  "settings": [
+    { "key": "work", "label": "Focus minutes", "type": "select", "options": ["15", "25", "45", "60"], "default": "25" },
+    { "key": "rest", "label": "Break minutes", "type": "select", "options": ["5", "10", "15"], "default": "5" }
+  ]
+}
