@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.kaleidoscope",
+  "name": "Kaleidoscope",
+  "version": "1.0.0",
+  "description": "Draw with mirrored symmetry and rainbow colors.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🔮",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 580,
+  "height": 640
+}

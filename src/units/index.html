@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row"><div><label for="cat">Category</label><select id="cat"></select></div></div>
+  <div class="row">
+    <div><label for="v1">Value</label><input type="number" id="v1" value="1" step="any"></div>
+    <div><label for="u1">From</label><select id="u1"></select></div>
+    <button id="sw" aria-label="Swap units">Swap</button>
+    <div><label for="u2">To</label><select id="u2"></select></div>
+  </div>
+  <div class="box big" id="res" role="status" aria-live="polite"></div>
+  <div class="muted" id="all"></div>
+  <script src="app.js"></script>
+</body>
+</html>

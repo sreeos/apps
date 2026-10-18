@@ -1,0 +1,13 @@
+{
+  "id": "web.discord",
+  "name": "Discord",
+  "version": "1.0.0",
+  "description": "Voice, video and text chat",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=discord.com&sz=128",
+  "url": "https://discord.com/app",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

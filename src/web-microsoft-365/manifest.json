@@ -1,0 +1,13 @@
+{
+  "id": "web.microsoft-365",
+  "name": "Microsoft 365",
+  "version": "1.0.0",
+  "description": "Word, Excel and PowerPoint online",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.office.com&sz=128",
+  "url": "https://www.office.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

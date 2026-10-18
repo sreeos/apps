@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ASCII Banner</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<label for="in">Text</label>
+<input type="text" id="in" value="SreeOS" maxlength="40" class="full">
+<div class="row">
+  <label>Fill <select id="ch"><option value="█">█ block</option><option value="#"># hash</option><option value="@">@ at</option><option value="*">* star</option><option value="same">Same as letter</option></select></label>
+  <label>Letter gap <select id="gap"><option>0</option><option selected>1</option><option>2</option></select></label>
+  <label>Scale <select id="sc"><option value="1" selected>1x</option><option value="2">2x wide</option></select></label>
+  <button id="copy" class="primary">Copy</button><span id="msg" class="muted" role="status"></span>
+</div>
+<pre id="out" aria-label="ASCII art output"></pre>
+<script src="app.js"></script>
+</body>
+</html>

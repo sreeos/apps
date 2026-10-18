@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.flappy",
+  "name": "Flappy",
+  "version": "1.0.0",
+  "description": "Tap to flap through the pipes.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🐤",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 380,
+  "height": 600
+}

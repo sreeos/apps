@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.timestamp",
+  "name": "Unix Timestamp",
+  "version": "1.0.0",
+  "description": "Convert between Unix time and dates, with a live clock",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "⏱️",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 540,
+  "height": 560
+}

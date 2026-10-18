@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.bookmarks",
+  "name": "Bookmarks",
+  "version": "1.0.0",
+  "description": "Saved links with tags and search",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "🔖",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 560,
+  "height": 480
+}

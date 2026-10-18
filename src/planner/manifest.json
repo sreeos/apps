@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.planner",
+  "name": "Planner",
+  "version": "1.0.0",
+  "description": "Month calendar with events per day",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "🗓️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 700,
+  "height": 520
+}

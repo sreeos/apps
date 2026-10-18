@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.typing",
+  "name": "Typing Test",
+  "version": "1.0.0",
+  "description": "Measure your typing speed and accuracy.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "⌨️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 640,
+  "height": 460
+}

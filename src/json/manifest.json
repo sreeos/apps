@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.json",
+  "name": "JSON Formatter",
+  "version": "1.0.0",
+  "description": "Format, minify and validate JSON",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "🧩",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 640,
+  "height": 520
+}

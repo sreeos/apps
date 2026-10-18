@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.speak",
+  "name": "Speak",
+  "version": "1.0.0",
+  "description": "Text to speech with voice, rate, pitch and volume controls.",
+  "author": "SreeOS",
+  "category": "Music",
+  "icon": "🗣️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 520,
+  "height": 440
+}

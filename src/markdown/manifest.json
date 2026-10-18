@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.markdown",
+  "name": "Markdown",
+  "version": "1.0.0",
+  "description": "Markdown editor with live preview",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "📘",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 860,
+  "height": 560
+}

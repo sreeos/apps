@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.gradient",
+  "name": "Gradient",
+  "version": "1.0.0",
+  "description": "CSS gradient maker with multiple color stops and copyable CSS.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🌈",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 520,
+  "height": 600
+}

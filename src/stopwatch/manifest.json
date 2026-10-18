@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.stopwatch",
+  "name": "Stopwatch",
+  "version": "1.0.0",
+  "description": "Stopwatch with laps",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "⏲️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 360,
+  "height": 520
+}

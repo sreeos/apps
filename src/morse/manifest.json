@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.morse",
+  "name": "Morse",
+  "version": "1.0.0",
+  "description": "Convert text to Morse code and back, with audio and light playback.",
+  "author": "SreeOS",
+  "category": "Music",
+  "icon": "📡",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 520,
+  "height": 520
+}

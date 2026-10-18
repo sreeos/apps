@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.pong",
+  "name": "Pong",
+  "version": "1.0.0",
+  "description": "Beat the AI to seven points.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🕹️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 540,
+  "height": 460
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.contacts",
+  "name": "Contacts",
+  "version": "1.0.0",
+  "description": "A simple address book",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "👥",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 640,
+  "height": 460
+}

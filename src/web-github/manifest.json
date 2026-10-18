@@ -1,0 +1,13 @@
+{
+  "id": "web.github",
+  "name": "GitHub",
+  "version": "1.0.0",
+  "description": "Code hosting and collaboration",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+  "url": "https://github.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

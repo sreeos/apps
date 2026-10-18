@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.breakout",
+  "name": "Breakout",
+  "version": "1.0.0",
+  "description": "Smash all the bricks.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🏓",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 440,
+  "height": 600
+}

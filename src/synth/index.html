@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Synth</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="grid">
+  <label>Waveform <select id="wave"><option>sine</option><option>triangle</option><option selected>sawtooth</option><option>square</option></select></label>
+  <label>Filter type <select id="ftype"><option>lowpass</option><option>highpass</option><option>bandpass</option></select></label>
+  <label>Cutoff <input type="range" id="cut" min="100" max="12000" value="3000"><output id="cuto"></output></label>
+  <label>Resonance <input type="range" id="res" min="0.1" max="20" step="0.1" value="2"><output id="reso"></output></label>
+  <label>Attack <input type="range" id="a" min="0.005" max="2" step="0.005" value="0.02"><output id="ao"></output></label>
+  <label>Decay <input type="range" id="d" min="0.01" max="2" step="0.01" value="0.2"><output id="do"></output></label>
+  <label>Sustain <input type="range" id="s" min="0" max="1" step="0.01" value="0.6"><output id="so"></output></label>
+  <label>Release <input type="range" id="r" min="0.01" max="3" step="0.01" value="0.4"><output id="ro"></output></label>
+</div>
+<canvas id="scope" width="560" height="90" aria-label="Oscilloscope"></canvas>
+<div id="kb" role="group" aria-label="Keys"></div>
+<p class="muted">Keys: A W S E D F T G Y H U J K. Z / X change octave.</p>
+<script src="app.js"></script>
+</body>
+</html>

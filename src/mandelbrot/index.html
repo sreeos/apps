@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Mandelbrot</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="row">
+  <button id="out">Zoom out</button><button id="reset">Reset</button>
+  <label>Iterations <input type="range" id="it" min="30" max="600" value="120"><output id="ito">120</output></label>
+  <label>Colors <select id="pal"><option value="0">Fire</option><option value="1">Ocean</option><option value="2">Rainbow</option><option value="3">Gray</option></select></label>
+  <span id="info" class="muted" role="status"></span>
+</div>
+<canvas id="c" width="640" height="440" aria-label="Mandelbrot set. Click to zoom in."></canvas>
+<p class="muted">Click to zoom in at that point.</p>
+<script src="app.js"></script>
+</body>
+</html>

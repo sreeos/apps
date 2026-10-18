@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.palette",
+  "name": "Palette",
+  "version": "1.0.0",
+  "description": "Generate color palettes from harmonies, lock the ones you like and copy hex codes.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🎨",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 640,
+  "height": 420
+}

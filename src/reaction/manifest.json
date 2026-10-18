@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.reaction",
+  "name": "Reaction",
+  "version": "1.0.0",
+  "description": "Test your reaction time.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "⚡",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 420,
+  "height": 460
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.piano",
+  "name": "Piano",
+  "version": "1.0.0",
+  "description": "Two-octave on-screen piano playable with mouse or computer keyboard, with a Web Audio synth.",
+  "author": "SreeOS",
+  "category": "Music",
+  "icon": "🎹",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 640,
+  "height": 340
+}

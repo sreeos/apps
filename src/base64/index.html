@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="tabs" role="group" aria-label="Mode"><button id="enc" class="on">Encode</button><button id="dec">Decode</button></div>
+  <label class="fit"><input type="checkbox" id="url"> URL-safe (- and _, no padding)</label>
+  <div class="grow"><label for="in">Input</label><textarea id="in" spellcheck="false"></textarea></div>
+  <div class="grow"><label for="out">Output</label><textarea id="out" readonly></textarea></div>
+  <div class="row"><button id="cp">Copy output</button><button id="swap">Use output as input</button><span class="err" id="msg" role="status"></span></div>
+  <script src="app.js"></script>
+</body>
+</html>

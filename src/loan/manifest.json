@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.loan",
+  "name": "Loan Calculator",
+  "version": "1.0.0",
+  "description": "EMI calculator with amortization table",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🏦",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 560,
+  "height": 560
+}

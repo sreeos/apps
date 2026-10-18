@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Box Shadow</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="stage"><div id="box" aria-label="Preview">Preview</div></div>
+<div class="grid">
+  <label>X offset <input type="range" id="x" min="-60" max="60" value="8"><output></output></label>
+  <label>Y offset <input type="range" id="y" min="-60" max="60" value="12"><output></output></label>
+  <label>Blur <input type="range" id="b" min="0" max="100" value="24"><output></output></label>
+  <label>Spread <input type="range" id="s" min="-40" max="60" value="0"><output></output></label>
+  <label>Opacity <input type="range" id="o" min="0" max="100" value="30"><output></output></label>
+  <label>Color <input type="color" id="c" value="#000000"></label>
+  <label>Box color <input type="color" id="bg" value="#ffffff"></label>
+  <label><input type="checkbox" id="inset"> Inset</label>
+</div>
+<textarea id="css" readonly rows="2" aria-label="CSS"></textarea>
+<div class="row"><button id="copy" class="primary">Copy CSS</button><span id="msg" class="muted" role="status"></span></div>
+<script src="app.js"></script>
+</body>
+</html>

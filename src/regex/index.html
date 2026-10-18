@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row">
+    <div style="flex:3 1 200px"><label for="pat">Pattern</label><input id="pat" spellcheck="false" placeholder="(\w+)@(\w+)\.com"></div>
+    <div style="flex:1 1 80px"><label for="flags">Flags</label><input id="flags" value="g" spellcheck="false"></div>
+  </div>
+  <div class="err" id="msg" role="status" aria-live="polite"></div>
+  <div><label for="in">Test text</label><textarea id="in" spellcheck="false" placeholder="Text to search"></textarea></div>
+  <div><span class="lbl">Matches</span><div class="box" id="hl" aria-label="Highlighted text"></div></div>
+  <div><span class="lbl" id="count"></span><div class="box" id="list"></div></div>
+  <script src="app.js"></script>
+</body>
+</html>

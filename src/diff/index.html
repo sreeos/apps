@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row">
+    <div><label for="a">Original</label><textarea id="a" spellcheck="false"></textarea></div>
+    <div><label for="b">Changed</label><textarea id="b" spellcheck="false"></textarea></div>
+  </div>
+  <div class="row"><label class="fit"><input type="checkbox" id="ws"> Ignore whitespace</label><label class="fit"><input type="checkbox" id="ci"> Ignore case</label><span class="muted" id="stat" role="status"></span></div>
+  <div class="box" id="out" aria-label="Diff result"></div>
+  <script src="app.js"></script>
+</body>
+</html>

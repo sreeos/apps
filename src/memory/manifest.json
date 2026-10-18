@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.memory",
+  "name": "Memory",
+  "version": "1.0.0",
+  "description": "Find all the matching pairs.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🃏",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 460,
+  "height": 560
+}

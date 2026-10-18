@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.puzzle15",
+  "name": "15 Puzzle",
+  "version": "1.0.0",
+  "description": "Slide the tiles into order.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🔲",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 420,
+  "height": 540
+}

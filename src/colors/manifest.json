@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.colors",
+  "name": "Colour Converter",
+  "version": "1.0.0",
+  "description": "Pick a colour and convert between HEX, RGB and HSL",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🎨",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 460,
+  "height": 460
+}

@@ -1,0 +1,13 @@
+{
+  "id": "web.linkedin",
+  "name": "LinkedIn",
+  "version": "1.0.0",
+  "description": "Professional network",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.linkedin.com&sz=128",
+  "url": "https://www.linkedin.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

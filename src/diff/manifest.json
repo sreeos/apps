@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.diff",
+  "name": "Text Diff",
+  "version": "1.0.0",
+  "description": "Compare two texts line by line",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "🔀",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 760,
+  "height": 640
+}

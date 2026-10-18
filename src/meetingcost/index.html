@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Meeting Cost</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <form class="row" id="f">
+    <label style="flex:1">Attendees<input id="n" type="number" min="1" value="5"></label>
+    <label style="flex:1">Avg hourly rate<input id="r" type="number" min="0" value="50"></label>
+  </form>
+  <div class="card tick"><div class="cost" id="cost">0.00</div><div class="muted" id="time">00:00:00</div><div class="muted" id="rate"></div></div>
+  <div class="row" style="justify-content:center;margin-top:10px"><button class="primary" id="go">Start</button><button id="reset">Reset</button></div>
+  <script src="app.js"></script>
+</body>
+</html>

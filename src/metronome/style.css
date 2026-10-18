@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 10px; font: 14px var(--font); color: var(--text); background: var(--bg); }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+label { color: var(--muted); font-size: 12px; display: inline-flex; align-items: center; gap: 4px; }
+button.on { background: var(--accent); color: #fff; }
+canvas { border: 1px solid var(--line); border-radius: var(--radius); max-width: 100%; }
+input[type=color] { width: 32px; height: 28px; padding: 0; border: 1px solid var(--line); background: none; }
+.muted { color: var(--muted); }
+output { font-variant-numeric: tabular-nums; min-width: 2.5em; }
+body { text-align: center; }
+.mid { justify-content: center; }
+.big { font-size: 64px; font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; margin-top: 8px; }
+.dot { width: 22px; height: 22px; border-radius: 50%; background: var(--line); transition: background .05s; }
+.dot.first { border: 2px solid var(--accent); }
+.dot.lit { background: var(--accent); }
+input[type=range] { flex: 1; min-width: 120px; }

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Gradient</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div id="prev" aria-label="Gradient preview"></div>
+<div class="row">
+  <label>Type <select id="type"><option value="linear">Linear</option><option value="radial">Radial</option><option value="conic">Conic</option></select></label>
+  <label id="angl">Angle <input type="range" id="angle" min="0" max="360" value="90"><output id="angleo">90°</output></label>
+  <button id="rand">Random</button>
+</div>
+<div id="stops"></div>
+<div class="row"><button id="add">Add stop</button></div>
+<label for="css">CSS</label>
+<textarea id="css" readonly rows="3"></textarea>
+<div class="row"><button id="copy" class="primary">Copy CSS</button><span id="msg" class="muted" role="status"></span></div>
+<script src="app.js"></script>
+</body>
+</html>

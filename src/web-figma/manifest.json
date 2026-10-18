@@ -1,0 +1,13 @@
+{
+  "id": "web.figma",
+  "name": "Figma",
+  "version": "1.0.0",
+  "description": "Collaborative interface design",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.figma.com&sz=128",
+  "url": "https://www.figma.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

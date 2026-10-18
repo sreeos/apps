@@ -1,0 +1,13 @@
+{
+  "id": "web.perplexity",
+  "name": "Perplexity",
+  "version": "1.0.0",
+  "description": "AI answer engine",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.perplexity.ai&sz=128",
+  "url": "https://www.perplexity.ai/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

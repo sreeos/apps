@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.connect4",
+  "name": "Connect 4",
+  "version": "1.0.0",
+  "description": "Line up four against the AI.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🔴",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 460,
+  "height": 560
+}

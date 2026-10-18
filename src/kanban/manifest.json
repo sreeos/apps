@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.kanban",
+  "name": "Kanban",
+  "version": "1.0.0",
+  "description": "Three-column board with drag and drop",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "📋",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 720,
+  "height": 480
+}

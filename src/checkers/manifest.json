@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.checkers",
+  "name": "Checkers",
+  "version": "1.0.0",
+  "description": "Play checkers against a simple AI.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "♟️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 500,
+  "height": 580
+}

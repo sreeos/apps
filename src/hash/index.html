@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="tabs" role="group" aria-label="Input type"><button id="mText" class="on">Text</button><button id="mFile">File</button></div>
+  <div id="textBox"><label for="in">Text</label><textarea id="in" spellcheck="false" placeholder="Type or paste text"></textarea></div>
+  <div id="fileBox" hidden><label for="file">File</label><input type="file" id="file"></div>
+  <label class="fit"><input type="checkbox" id="upper"> Uppercase hex</label>
+  <div id="results"></div>
+  <script src="app.js"></script>
+</body>
+</html>

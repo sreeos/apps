@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.numbase",
+  "name": "Number Base",
+  "version": "1.0.0",
+  "description": "Convert between binary, octal, decimal and hex with BigInt",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "🔟",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 480,
+  "height": 520
+}

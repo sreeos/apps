@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.simon",
+  "name": "Simon",
+  "version": "1.0.0",
+  "description": "Repeat the growing sequence.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🎵",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 400,
+  "height": 520
+}

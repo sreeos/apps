@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.countdown",
+  "name": "Countdown",
+  "version": "1.0.0",
+  "description": "Countdowns to dates and events",
+  "author": "SreeOS",
+  "category": "Lifestyle",
+  "icon": "⏳",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 420,
+  "height": 460
+}

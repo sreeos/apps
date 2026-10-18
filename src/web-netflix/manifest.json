@@ -1,0 +1,13 @@
+{
+  "id": "web.netflix",
+  "name": "Netflix",
+  "version": "1.0.0",
+  "description": "Films and series",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.netflix.com&sz=128",
+  "url": "https://www.netflix.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

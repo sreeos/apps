@@ -1,0 +1,13 @@
+{
+  "id": "web.replit",
+  "name": "Replit",
+  "version": "1.0.0",
+  "description": "Code and run apps in the browser",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=replit.com&sz=128",
+  "url": "https://replit.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

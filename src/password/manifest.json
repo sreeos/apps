@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.password",
+  "name": "Password Generator",
+  "version": "1.0.0",
+  "description": "Generate strong random passwords",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🔑",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 480,
+  "height": 460
+}

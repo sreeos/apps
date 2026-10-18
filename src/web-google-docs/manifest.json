@@ -1,0 +1,13 @@
+{
+  "id": "web.google-docs",
+  "name": "Google Docs",
+  "version": "1.0.0",
+  "description": "Documents",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=docs.google.com&sz=128",
+  "url": "https://docs.google.com/document/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

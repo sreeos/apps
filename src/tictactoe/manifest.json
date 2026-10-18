@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.tictactoe",
+  "name": "Tic-Tac-Toe",
+  "version": "1.0.0",
+  "description": "Play against an unbeatable AI or a friend.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "⭕",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 340,
+  "height": 440
+}

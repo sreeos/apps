@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 12px; display: flex; flex-direction: column; gap: 10px; min-height: 100vh; }
+label, .lbl { font-size: 12px; color: var(--muted); display: block; margin-bottom: 3px; }
+label:has(input[type=checkbox]) { display: flex; align-items: center; gap: 6px; color: var(--text); font-size: 13px; margin: 0; }
+textarea, input, select { width: 100%; font-family: inherit; }
+textarea, .box { font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace; }
+textarea { resize: vertical; min-height: 90px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-end; }
+.row > * { flex: 1 1 120px; min-width: 0; }
+.row > button, .row > .fit { flex: 0 0 auto; }
+.grow { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.grow textarea { flex: 1; }
+.box { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 10px; white-space: pre-wrap; word-break: break-all; overflow: auto; }
+.err { color: var(--danger); font-size: 12px; min-height: 16px; }
+.muted { color: var(--muted); font-size: 12px; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs button.on { background: var(--accent); color: #fff; }
+input[type=checkbox], input[type=radio], input[type=range] { width: auto; }
+input[type=color] { padding: 0; height: 36px; }
+.big { font-size: 28px; font-variant-numeric: tabular-nums; }
+.res { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.res b { width: 64px; flex: none; }
+.res code { flex: 1; word-break: break-all; font-size: 12px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px 8px; }

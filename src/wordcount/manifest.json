@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.wordcount",
+  "name": "Word Count",
+  "version": "1.0.0",
+  "description": "Words, characters, sentences and reading time",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🔢",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 560,
+  "height": 480
+}

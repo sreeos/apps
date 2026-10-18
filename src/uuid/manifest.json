@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.uuid",
+  "name": "UUID Generator",
+  "version": "1.0.0",
+  "description": "Generate version 4 UUIDs in bulk",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "🆔",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 520,
+  "height": 460
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.units",
+  "name": "Unit Converter",
+  "version": "1.0.0",
+  "description": "Convert length, mass, temperature, volume, speed and data",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "📏",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 520,
+  "height": 400
+}

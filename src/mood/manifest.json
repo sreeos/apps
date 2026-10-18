@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.mood",
+  "name": "Mood",
+  "version": "1.0.0",
+  "description": "Mood tracker with a month view",
+  "author": "SreeOS",
+  "category": "Lifestyle",
+  "icon": "😊",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 460,
+  "height": 480
+}

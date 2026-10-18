@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 12px; font: 14px/1.4 var(--font); background: var(--bg); color: var(--text); }
+.row { display: flex; gap: 6px; align-items: center; margin-bottom: 8px; flex-wrap: wrap; }
+.row > input, .row > select { flex: 1; min-width: 0; }
+ul { list-style: none; margin: 0; padding: 0; }
+.muted { color: var(--muted); }
+h1 { font-size: 16px; margin: 0 0 8px; }
+h2 { font-size: 14px; margin: 8px 0 4px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px; }
+label { display: block; font-size: 12px; color: var(--muted); }
+label > input, label > select, label > textarea { display: block; width: 100%; margin-top: 2px; }
+textarea { font: inherit; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: var(--radius); padding: 6px; }
+.x { padding: 0 6px; }
+.danger { color: var(--danger); }
+#sum .card { flex: 1; text-align: center; }
+#sum b { display: block; font-size: 18px; }
+.inc { color: #2e9e5b; } .exp { color: var(--danger); }
+li { display: flex; gap: 8px; padding: 4px 0; border-bottom: 1px solid var(--line); align-items: center; }
+li .d { width: 80px; color: var(--muted); } li .t { flex: 1; } 
+.bar { display: flex; align-items: center; gap: 6px; font-size: 12px; margin-bottom: 3px; }
+.bar i { display: block; height: 8px; background: var(--accent); border-radius: 4px; }
+.bar span:first-child { width: 90px; }

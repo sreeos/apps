@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.meetingcost",
+  "name": "Meeting Cost",
+  "version": "1.0.0",
+  "description": "Live meeting cost ticker",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "💸",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 400,
+  "height": 420
+}

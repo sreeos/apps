@@ -1,0 +1,13 @@
+{
+  "id": "web.microsoft-teams",
+  "name": "Microsoft Teams",
+  "version": "1.0.0",
+  "description": "Chat and meetings for work",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=teams.microsoft.com&sz=128",
+  "url": "https://teams.microsoft.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.textcase",
+  "name": "Text Case",
+  "version": "1.0.0",
+  "description": "Convert text between upper, lower, title, camel, snake and kebab case",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🔡",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 560,
+  "height": 440
+}

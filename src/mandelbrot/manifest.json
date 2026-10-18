@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.mandelbrot",
+  "name": "Mandelbrot",
+  "version": "1.0.0",
+  "description": "Explore the Mandelbrot fractal: click to zoom in, choose iterations and colors.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🌀",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 700,
+  "height": 600
+}

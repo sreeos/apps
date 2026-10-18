@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Flashcards</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row"><label style="flex:1">Deck<select id="deck"></select></label><button id="newdeck">New deck</button><button id="deldeck">Delete deck</button></div>
+  <div id="study" class="card"></div>
+  <form class="row" id="f"><input id="q" aria-label="Front" placeholder="Front" autocomplete="off"><input id="a" aria-label="Back" placeholder="Back" autocomplete="off"><button class="primary">Add card</button></form>
+  <div class="muted" id="info"></div>
+  <script src="app.js"></script>
+</body>
+</html>

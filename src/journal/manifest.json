@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.journal",
+  "name": "Journal",
+  "version": "1.0.0",
+  "description": "Dated journal entries",
+  "author": "SreeOS",
+  "category": "Lifestyle",
+  "icon": "📔",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 680,
+  "height": 460
+}

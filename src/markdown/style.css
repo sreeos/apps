@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 12px; display: flex; flex-direction: column; gap: 10px; min-height: 100vh; }
+label, .lbl { font-size: 12px; color: var(--muted); display: block; margin-bottom: 3px; }
+label:has(input[type=checkbox]) { display: flex; align-items: center; gap: 6px; color: var(--text); font-size: 13px; margin: 0; }
+textarea, input, select { width: 100%; font-family: inherit; }
+textarea, .box { font: 13px/1.5 ui-monospace, Menlo, Consolas, monospace; }
+textarea { resize: vertical; min-height: 90px; }
+.row { display: flex; gap: 8px; flex-wrap: wrap; align-items: flex-end; }
+.row > * { flex: 1 1 120px; min-width: 0; }
+.row > button, .row > .fit { flex: 0 0 auto; }
+.grow { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+.grow textarea { flex: 1; }
+.box { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 8px 10px; white-space: pre-wrap; word-break: break-all; overflow: auto; }
+.err { color: var(--danger); font-size: 12px; min-height: 16px; }
+.muted { color: var(--muted); font-size: 12px; }
+.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.tabs button.on { background: var(--accent); color: #fff; }
+input[type=checkbox], input[type=radio], input[type=range] { width: auto; }
+input[type=color] { padding: 0; height: 36px; }
+.big { font-size: 28px; font-variant-numeric: tabular-nums; }
+main { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; min-height: 0; }
+.md { font: 14px/1.6 var(--font); white-space: normal; word-break: normal; overflow-wrap: anywhere; flex: 1; }
+.md h1, .md h2, .md h3, .md h4 { margin: 0.6em 0 0.3em; }
+.md h1 { font-size: 1.6em; } .md h2 { font-size: 1.3em; } .md h3 { font-size: 1.1em; }
+.md p, .md ul, .md ol, .md blockquote, .md pre { margin: 0 0 0.8em; }
+.md code { font-family: ui-monospace, Menlo, monospace; background: var(--hover); padding: 1px 4px; border-radius: 4px; }
+.md pre { background: var(--hover); padding: 8px; border-radius: var(--radius); overflow: auto; white-space: pre; }
+.md pre code { background: none; padding: 0; }
+.md blockquote { border-left: 3px solid var(--accent); padding-left: 10px; color: var(--muted); }
+.md hr { border: 0; border-top: 1px solid var(--line); }
+.md a { color: var(--accent); }
+@media (max-width: 560px) { main { grid-template-columns: 1fr; } }

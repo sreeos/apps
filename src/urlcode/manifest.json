@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.urlcode",
+  "name": "URL Encoder",
+  "version": "1.0.0",
+  "description": "Encode, decode and parse URLs and query strings",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "🔗",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 560,
+  "height": 600
+}

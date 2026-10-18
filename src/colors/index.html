@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row"><div class="fit"><label for="pick">Pick</label><input type="color" id="pick" value="#4f8cff" style="width:80px"></div><div id="sw" class="box" style="height:36px;flex:2 1 160px" aria-label="Preview swatch"></div></div>
+  <div class="row"><div><label for="hex">HEX</label><input id="hex" spellcheck="false"></div><button id="cphex">Copy</button></div>
+  <div class="row"><div><label for="rgb">RGB</label><input id="rgb" spellcheck="false"></div><button id="cprgb">Copy</button></div>
+  <div class="row"><div><label for="hsl">HSL</label><input id="hsl" spellcheck="false"></div><button id="cphsl">Copy</button></div>
+  <div class="err" id="msg" role="status"></div>
+  <div class="muted" id="contrast"></div>
+  <script src="app.js"></script>
+</body>
+</html>

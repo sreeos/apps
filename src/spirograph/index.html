@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spirograph</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="grid">
+  <label>Outer radius <input type="range" id="R" min="40" max="150" value="110"><output></output></label>
+  <label>Inner radius <input type="range" id="r" min="5" max="120" value="37"><output></output></label>
+  <label>Pen offset <input type="range" id="d" min="5" max="150" value="70"><output></output></label>
+  <label>Speed <input type="range" id="sp" min="1" max="40" value="12"><output></output></label>
+</div>
+<div class="row"><button id="go" class="primary">Pause</button><button id="clear">Restart</button><button id="rand">Randomize</button></div>
+<canvas id="c" width="460" height="400" aria-label="Spirograph"></canvas>
+<script src="app.js"></script>
+</body>
+</html>

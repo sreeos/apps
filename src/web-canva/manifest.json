@@ -1,0 +1,13 @@
+{
+  "id": "web.canva",
+  "name": "Canva",
+  "version": "1.0.0",
+  "description": "Graphic design made simple",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.canva.com&sz=128",
+  "url": "https://www.canva.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Metronome</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="big" id="bpmv" aria-live="off">100</div>
+<div class="row mid"><button id="m10" aria-label="Minus 10">-10</button><button id="m1" aria-label="Minus 1">-1</button>
+<input type="range" id="bpm" min="30" max="240" value="100" aria-label="BPM">
+<button id="p1" aria-label="Plus 1">+1</button><button id="p10" aria-label="Plus 10">+10</button></div>
+<div class="row mid">
+  <label>Time signature <select id="sig"><option value="2">2/4</option><option value="3">3/4</option><option value="4" selected>4/4</option><option value="5">5/4</option><option value="6">6/8</option></select></label>
+  <label><input type="checkbox" id="acc" checked> Accent first beat</label>
+</div>
+<div class="row mid" id="dots" aria-hidden="true"></div>
+<div class="row mid"><button id="go" class="primary">Start</button><button id="tap">Tap tempo</button></div>
+<script src="app.js"></script>
+</body>
+</html>

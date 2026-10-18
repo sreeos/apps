@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.maze",
+  "name": "Maze",
+  "version": "1.0.0",
+  "description": "Find the way out of a generated maze.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🌀",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 560,
+  "height": 660
+}

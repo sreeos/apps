@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Pixel Art</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="row">
+  <label>Grid <select id="grid"><option>16</option><option>32</option></select></label>
+  <button id="draw" class="on">Draw</button><button id="erase">Erase</button><button id="fill">Fill</button>
+  <button id="clear">Clear</button><button id="undo">Undo</button>
+  <label>Export scale <select id="scale"><option>8</option><option selected>16</option><option>32</option></select></label>
+  <button id="save" class="primary">Save to Pictures</button>
+  <span id="msg" class="muted" role="status"></span>
+</div>
+<div class="row" id="pal" role="group" aria-label="Palette"></div>
+<canvas id="c" width="512" height="512" aria-label="Pixel canvas"></canvas>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.emoji",
+  "name": "Emoji Picker",
+  "version": "1.0.0",
+  "description": "Search emoji by name, browse categories and copy them.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "😀",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 560,
+  "height": 520
+}

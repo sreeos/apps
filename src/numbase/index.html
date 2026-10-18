@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <p class="muted">Edit any field. Supports arbitrarily large integers and negative numbers.</p>
+  <div><label for="bin">Binary (2)</label><input id="bin" spellcheck="false" autocomplete="off"></div>
+  <div><label for="oct">Octal (8)</label><input id="oct" spellcheck="false" autocomplete="off"></div>
+  <div><label for="dec">Decimal (10)</label><input id="dec" spellcheck="false" autocomplete="off" value="255"></div>
+  <div><label for="hex">Hexadecimal (16)</label><input id="hex" spellcheck="false" autocomplete="off"></div>
+  <div class="row"><div><label for="cbase">Custom base (2-36)</label><input type="number" id="cbase" min="2" max="36" value="36"></div><div><label for="cust">Value in custom base</label><input id="cust" spellcheck="false" autocomplete="off"></div></div>
+  <div class="row"><button id="cp">Copy hex</button><span class="err" id="msg" role="status"></span></div>
+  <script src="app.js"></script>
+</body>
+</html>

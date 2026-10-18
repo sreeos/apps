@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.sketch",
+  "name": "Sketch",
+  "version": "1.0.0",
+  "description": "Freehand drawing pad with brush sizes, colors, eraser, undo and PNG export.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "✏️",
+  "entry": "index.html",
+  "permissions": ["fs.home"],
+  "width": 780,
+  "height": 560
+}

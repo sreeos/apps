@@ -1,0 +1,13 @@
+{
+  "id": "web.tldraw",
+  "name": "tldraw",
+  "version": "1.0.0",
+  "description": "Infinite canvas whiteboard",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.tldraw.com&sz=128",
+  "url": "https://www.tldraw.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

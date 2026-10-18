@@ -1,0 +1,13 @@
+{
+  "id": "web.stack-overflow",
+  "name": "Stack Overflow",
+  "version": "1.0.0",
+  "description": "Programming questions and answers",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=stackoverflow.com&sz=128",
+  "url": "https://stackoverflow.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

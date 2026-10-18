@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row">
+    <div class="fit"><label for="indent">Indent</label><select id="indent"><option value="2">2 spaces</option><option value="4">4 spaces</option><option value="t">Tab</option></select></div>
+    <button class="primary" id="fmt">Format</button><button id="min">Minify</button><button id="sort">Sort keys</button><button id="cp">Copy</button><button id="clr">Clear</button>
+  </div>
+  <div class="grow"><label for="in">JSON</label><textarea id="in" spellcheck="false" placeholder='{"hello": "world"}'></textarea></div>
+  <div class="err" id="msg" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

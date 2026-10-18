@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Palette</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="row">
+  <label>Harmony <select id="mode"><option value="random">Random</option><option value="analogous">Analogous</option><option value="complementary">Complementary</option><option value="triadic">Triadic</option><option value="tetradic">Tetradic</option><option value="mono">Monochromatic</option></select></label>
+  <button id="gen" class="primary">Generate</button><span class="muted">Space = new palette</span>
+  <span id="msg" class="muted" role="status"></span>
+</div>
+<div id="sw"></div>
+<script src="app.js"></script>
+</body>
+</html>

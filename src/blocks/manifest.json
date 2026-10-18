@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.blocks",
+  "name": "Blocks",
+  "version": "1.0.0",
+  "description": "Falling blocks. Clear lines.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🧱",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 400,
+  "height": 660
+}

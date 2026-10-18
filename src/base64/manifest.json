@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.base64",
+  "name": "Base64",
+  "version": "1.0.0",
+  "description": "Encode and decode Base64 text",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "🔐",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 560,
+  "height": 520
+}

@@ -1,0 +1,13 @@
+{
+  "id": "web.outlook",
+  "name": "Outlook",
+  "version": "1.0.0",
+  "description": "Microsoft email and calendar",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=outlook.live.com&sz=128",
+  "url": "https://outlook.live.com/mail/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

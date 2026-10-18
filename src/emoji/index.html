@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Emoji Picker</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="row"><label for="q" class="sr">Search emoji</label><input type="search" id="q" placeholder="Search by name…" class="grow"><label>Selected <input type="text" id="sel" class="sel" aria-label="Selected emoji"></label><button id="copy" class="primary">Copy</button></div>
+<div class="row" id="cats" role="group" aria-label="Categories"></div>
+<div id="grid"></div>
+<div class="muted" id="msg" role="status">Click an emoji to select it.</div>
+<script src="app.js"></script>
+</body>
+</html>

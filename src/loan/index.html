@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Loan Calculator</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <form class="row" id="f">
+    <label>Amount<input id="p" type="number" min="0" value="100000"></label>
+    <label>Annual rate %<input id="r" type="number" min="0" step="0.01" value="7.5"></label>
+    <label>Term (years)<input id="y" type="number" min="1" step="0.5" value="5"></label>
+  </form>
+  <div class="row" id="sum"></div>
+  <h2>Amortization</h2>
+  <div class="tw"><table id="tb"></table></div>
+  <script src="app.js"></script>
+</body>
+</html>

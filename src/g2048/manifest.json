@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.g2048",
+  "name": "2048",
+  "version": "1.0.0",
+  "description": "Slide and merge tiles to reach 2048.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🔢",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 400,
+  "height": 520
+}

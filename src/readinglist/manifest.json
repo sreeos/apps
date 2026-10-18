@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.readinglist",
+  "name": "Reading List",
+  "version": "1.0.0",
+  "description": "Books to read, reading and done",
+  "author": "SreeOS",
+  "category": "Lifestyle",
+  "icon": "📚",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 640,
+  "height": 460
+}

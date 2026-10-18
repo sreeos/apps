@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.drums",
+  "name": "Drum Machine",
+  "version": "1.0.0",
+  "description": "Eight synthesized drum pads and a 16-step sequencer.",
+  "author": "SreeOS",
+  "category": "Music",
+  "icon": "🥁",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 720,
+  "height": 560
+}

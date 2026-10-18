@@ -1,0 +1,13 @@
+{
+  "id": "web.twitch",
+  "name": "Twitch",
+  "version": "1.0.0",
+  "description": "Live streams",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=www.twitch.tv&sz=128",
+  "url": "https://www.twitch.tv/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

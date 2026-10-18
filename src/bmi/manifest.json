@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.bmi",
+  "name": "BMI Calculator",
+  "version": "1.0.0",
+  "description": "Body mass index, metric or imperial",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "⚖️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 360,
+  "height": 420
+}

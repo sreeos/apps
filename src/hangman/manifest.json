@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.hangman",
+  "name": "Hangman",
+  "version": "1.0.0",
+  "description": "Guess the word before the drawing completes.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🪢",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 440,
+  "height": 560
+}

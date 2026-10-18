@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.water",
+  "name": "Water",
+  "version": "1.0.0",
+  "description": "Daily water intake with a goal",
+  "author": "SreeOS",
+  "category": "Lifestyle",
+  "icon": "💧",
+  "entry": "index.html",
+  "permissions": ["notify"],
+  "width": 360,
+  "height": 440
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.sudoku",
+  "name": "Sudoku",
+  "version": "1.0.0",
+  "description": "Generated puzzles with notes and checking.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🧩",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 460,
+  "height": 640
+}

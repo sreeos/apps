@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.shadow",
+  "name": "Box Shadow",
+  "version": "1.0.0",
+  "description": "CSS box-shadow generator with live preview and copyable CSS.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🔲",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 520,
+  "height": 600
+}

@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>BMI Calculator</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <form id="f">
+    <label>Units<select id="u"><option value="m">Metric (cm, kg)</option><option value="i">Imperial (in, lb)</option></select></label>
+    <label><span id="hl">Height (cm)</span><input id="h" type="number" min="0" step="0.1" value="170"></label>
+    <label><span id="wl">Weight (kg)</span><input id="w" type="number" min="0" step="0.1" value="65"></label>
+  </form>
+  <div class="card" id="out" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

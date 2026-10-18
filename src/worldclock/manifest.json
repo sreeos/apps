@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.worldclock",
+  "name": "World Clock",
+  "version": "1.0.0",
+  "description": "Clocks for time zones around the world",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🌍",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 460,
+  "height": 520
+}

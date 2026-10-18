@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="tabs" role="group" aria-label="Mode"><button id="enc" class="on">Encode</button><button id="dec">Decode</button></div>
+  <label class="fit"><input type="checkbox" id="full"> Whole URL (keep : / ? # &amp; =)</label>
+  <div><label for="in">Input</label><textarea id="in" spellcheck="false"></textarea></div>
+  <div><label for="out">Output</label><textarea id="out" readonly></textarea></div>
+  <div class="row"><button id="cp">Copy output</button><span class="err" id="msg" role="status"></span></div>
+  <div><span class="lbl">Query string parameters (from input)</span><div class="box" id="params"></div></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.life",
+  "name": "Game of Life",
+  "version": "1.0.0",
+  "description": "Conway's cellular automaton editor.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🧬",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 560,
+  "height": 600
+}

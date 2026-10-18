@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.flashcards",
+  "name": "Flashcards",
+  "version": "1.0.0",
+  "description": "Decks with flip cards and spaced practice",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "🃏",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 560,
+  "height": 460
+}

@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row"><div class="box big" id="pw" style="flex:1 1 240px;font-size:20px" aria-live="polite"></div><button class="primary" id="gen">Generate</button><button id="cp">Copy</button></div>
+  <div><div class="muted" id="strength" role="status"></div><meter id="meter" min="0" max="100" value="0" style="width:100%" aria-label="Strength"></meter></div>
+  <div><label for="len">Length: <span id="lenv">16</span></label><input type="range" id="len" min="4" max="64" value="16" style="width:100%"></div>
+  <label><input type="checkbox" id="lo" checked> Lowercase (a-z)</label>
+  <label><input type="checkbox" id="up" checked> Uppercase (A-Z)</label>
+  <label><input type="checkbox" id="di" checked> Digits (0-9)</label>
+  <label><input type="checkbox" id="sy" checked> Symbols (!@#$...)</label>
+  <label><input type="checkbox" id="am"> Avoid look-alikes (0 O 1 l I)</label>
+  <script src="app.js"></script>
+</body>
+</html>

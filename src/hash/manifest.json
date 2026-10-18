@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.hash",
+  "name": "Hash",
+  "version": "1.0.0",
+  "description": "SHA-1, SHA-256, SHA-384 and SHA-512 of text or files",
+  "author": "SreeOS",
+  "category": "Developer Tools",
+  "icon": "#️⃣",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 640,
+  "height": 480
+}

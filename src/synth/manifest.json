@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.synth",
+  "name": "Synth",
+  "version": "1.0.0",
+  "description": "Simple oscillator synth with waveform, ADSR envelope and filter controls.",
+  "author": "SreeOS",
+  "category": "Music",
+  "icon": "🎛️",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 620,
+  "height": 520
+}

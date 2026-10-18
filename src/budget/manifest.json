@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.budget",
+  "name": "Budget",
+  "version": "1.0.0",
+  "description": "Income and expense tracker with monthly totals",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "💰",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 600,
+  "height": 500
+}

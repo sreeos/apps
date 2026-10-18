@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.wordguess",
+  "name": "Word Guess",
+  "version": "1.0.0",
+  "description": "Guess the five-letter word in six tries.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🔤",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 420,
+  "height": 640
+}

@@ -1,0 +1,13 @@
+{
+  "id": "web.codepen",
+  "name": "CodePen",
+  "version": "1.0.0",
+  "description": "Front-end playground",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=codepen.io&sz=128",
+  "url": "https://codepen.io/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

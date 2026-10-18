@@ -1,0 +1,13 @@
+{
+  "id": "web.google-keep",
+  "name": "Google Keep",
+  "version": "1.0.0",
+  "description": "Notes and lists",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=keep.google.com&sz=128",
+  "url": "https://keep.google.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.snake",
+  "name": "Snake",
+  "version": "1.0.0",
+  "description": "Eat, grow, do not crash.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🐍",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 420,
+  "height": 520
+}

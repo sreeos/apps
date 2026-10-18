@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.metronome",
+  "name": "Metronome",
+  "version": "1.0.0",
+  "description": "Steady click with adjustable BPM, time signature, accented downbeat and tap tempo.",
+  "author": "SreeOS",
+  "category": "Music",
+  "icon": "🎼",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 420,
+  "height": 360
+}

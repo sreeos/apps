@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="box"><span class="lbl">Now (live)</span>
+    <div class="row"><div class="big" id="nowS" aria-label="Current Unix time in seconds"></div><button id="cpNow">Copy</button></div>
+    <div class="muted" id="nowI"></div></div>
+  <div class="box"><span class="lbl">Unix time to date (seconds or milliseconds)</span>
+    <div class="row"><div><label for="ts">Timestamp</label><input id="ts" inputmode="numeric" spellcheck="false"></div><button id="useNow">Use now</button></div>
+    <div id="tsOut"></div></div>
+  <div class="box"><span class="lbl">Date to Unix time</span>
+    <div class="row"><div><label for="dt">Date and time</label><input type="datetime-local" id="dt" step="1"></div>
+    <div><label for="zone">Interpret as</label><select id="zone"><option value="local">Local time</option><option value="utc">UTC</option></select></div></div>
+    <div id="dtOut"></div></div>
+  <script src="app.js"></script>
+</body>
+</html>

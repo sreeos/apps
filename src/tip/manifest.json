@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.tip",
+  "name": "Tip Splitter",
+  "version": "1.0.0",
+  "description": "Tip and bill splitter",
+  "author": "SreeOS",
+  "category": "Utilities",
+  "icon": "🧾",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 360,
+  "height": 460
+}

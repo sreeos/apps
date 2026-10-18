@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: var(--font); color: var(--text); background: var(--bg); user-select: none; }
+main { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 10px; }
+.bar { display: flex; gap: 8px 12px; align-items: center; flex-wrap: wrap; justify-content: center; }
+.bar span { color: var(--muted); }
+.bar label { color: var(--muted); font-size: 13px; }
+#stage { outline: none; position: relative; max-width: 100%; }
+#stage:focus-visible { box-shadow: 0 0 0 2px var(--accent); border-radius: 6px; }
+canvas { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); max-width: 100%; display: block; touch-action: none; }
+.hint { color: var(--muted); margin: 0; font-size: 13px; text-align: center; min-height: 1.3em; }
+#stage { width: 560px; max-width: 100%; padding: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); font-family: ui-monospace, Menlo, monospace; font-size: 20px; line-height: 1.7; height: 230px; overflow: hidden; user-select: none; }
+#stage span.ok { color: var(--text); } #stage span.bad { color: var(--danger); background: color-mix(in srgb, var(--danger) 25%, transparent); }
+#stage span.todo { color: var(--muted); } #stage span.cur { color: var(--text); border-left: 2px solid var(--accent); margin-left: -2px; }

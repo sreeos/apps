@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.pixelart",
+  "name": "Pixel Art",
+  "version": "1.0.0",
+  "description": "Pixel art editor with 16 or 32 grids, a palette, fill tool and scaled PNG export.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "👾",
+  "entry": "index.html",
+  "permissions": ["fs.home"],
+  "width": 520,
+  "height": 640
+}

@@ -1,0 +1,13 @@
+{
+  "id": "web.youtube-music",
+  "name": "YouTube Music",
+  "version": "1.0.0",
+  "description": "Music streaming from YouTube",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=music.youtube.com&sz=128",
+  "url": "https://music.youtube.com/",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

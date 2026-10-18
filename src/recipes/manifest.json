@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.recipes",
+  "name": "Recipes",
+  "version": "1.0.0",
+  "description": "Recipe box with servings scaling",
+  "author": "SreeOS",
+  "category": "Lifestyle",
+  "icon": "🍳",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 700,
+  "height": 500
+}

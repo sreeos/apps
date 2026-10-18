@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Budget</title><link rel="stylesheet" href="style.css"></head>
+<body>
+  <div class="row"><label>Month<input type="month" id="month"></label></div>
+  <div class="row" id="sum"></div>
+  <form class="row" id="f">
+    <select id="type" aria-label="Type"><option value="expense">Expense</option><option value="income">Income</option></select>
+    <input id="amt" type="number" step="0.01" min="0" aria-label="Amount" placeholder="Amount" required>
+    <input id="cat" list="cats" aria-label="Category" placeholder="Category" autocomplete="off">
+    <datalist id="cats"></datalist>
+    <input id="note" aria-label="Note" placeholder="Note" autocomplete="off">
+    <input id="date" type="date" aria-label="Date">
+    <button class="primary">Add</button>
+  </form>
+  <h2>By category</h2><div id="bycat"></div>
+  <h2>Transactions</h2><ul id="list"></ul>
+  <script src="app.js"></script>
+</body>
+</html>

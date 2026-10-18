@@ -1,0 +1,13 @@
+{
+  "id": "web.slack",
+  "name": "Slack",
+  "version": "1.0.0",
+  "description": "Team chat",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://www.google.com/s2/favicons?domain=app.slack.com&sz=128",
+  "url": "https://app.slack.com/client",
+  "display": "window",
+  "width": 1200,
+  "height": 800
+}

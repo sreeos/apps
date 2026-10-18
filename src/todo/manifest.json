@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.todo",
+  "name": "To-Do",
+  "version": "1.0.0",
+  "description": "Simple task list with filters",
+  "author": "SreeOS",
+  "category": "Productivity",
+  "icon": "✅",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 380,
+  "height": 480
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.spirograph",
+  "name": "Spirograph",
+  "version": "1.0.0",
+  "description": "Animated spirograph drawer with adjustable gears and pen offset.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🌸",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 520,
+  "height": 600
+}

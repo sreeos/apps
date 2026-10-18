@@ -1,0 +1,13 @@
+{
+  "id": "sreeos.asciiart",
+  "name": "ASCII Banner",
+  "version": "1.0.0",
+  "description": "Turn text into big ASCII art banners using a built-in block font.",
+  "author": "SreeOS",
+  "category": "Creativity",
+  "icon": "🔠",
+  "entry": "index.html",
+  "permissions": ["clipboard"],
+  "width": 640,
+  "height": 380
+}
