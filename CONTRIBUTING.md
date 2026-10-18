@@ -7,6 +7,13 @@
 3. Run `npm install && npm run check`.
 4. Open a pull request. CI validates it; a maintainer reviews it and merges.
 
+## Store page (optional)
+
+- `"screenshots": ["shots/1.png"]` and `"changelog": "What changed"` in `manifest.json` show on the app's
+  App Store page. Screenshots can also live outside the app, in `screenshots/<id>/` in this repo, so
+  they are not part of the download.
+- `featured.json` lists the apps shown in the Store's **Featured** row (maintainers pick these).
+
 ## Rules
 
 - `id` is unique and stays the same forever (`yourname.app`). Updates bump `version`.
