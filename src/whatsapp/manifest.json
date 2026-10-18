@@ -1,0 +1,13 @@
+{
+  "id": "web.whatsapp",
+  "name": "WhatsApp",
+  "version": "1.0.0",
+  "description": "WhatsApp Web in its own app window",
+  "author": "SreeOS",
+  "category": "Web Apps",
+  "icon": "https://web.whatsapp.com/favicon.ico",
+  "url": "https://web.whatsapp.com/",
+  "display": "window",
+  "width": 1100,
+  "height": 760
+}

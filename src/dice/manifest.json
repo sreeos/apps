@@ -1,0 +1,14 @@
+{
+  "id": "sreeos.dice",
+  "name": "Dice",
+  "version": "1.0.0",
+  "description": "Roll dice. A tiny example app.",
+  "author": "SreeOS",
+  "category": "Games",
+  "icon": "🎲",
+  "entry": "index.html",
+  "permissions": [],
+  "width": 360,
+  "height": 320,
+  "settings": [{ "key": "count", "label": "Number of dice", "type": "select", "options": ["1", "2", "3", "4", "5"], "default": "2" }]
+}

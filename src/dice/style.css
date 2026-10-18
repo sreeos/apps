@@ -1,0 +1,4 @@
+main { display: grid; place-items: center; gap: 10px; padding: 24px; text-align: center; }
+#dice { font-size: 64px; line-height: 1; }
+#total { font-size: 18px; margin: 0; }
+.hint { color: var(--muted); margin: 0; }

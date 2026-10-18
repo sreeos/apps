@@ -1,0 +1,11 @@
+{
+  "name": "sreeos-apps",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check",
+    "test": "node --test scripts/"
+  },
+  "dependencies": { "fflate": "^0.8.3" }
+}

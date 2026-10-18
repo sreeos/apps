@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SreeOS Apps</title>
+  <style>
+    :root { color-scheme: light dark; font: 15px/1.5 system-ui, sans-serif; }
+    body { max-width: 760px; margin: 40px auto; padding: 0 16px; }
+    code { background: rgba(127,127,127,.15); padding: 2px 6px; border-radius: 4px; }
+    li { display: flex; gap: 12px; align-items: center; padding: 8px 0; border-bottom: 1px solid rgba(127,127,127,.25); }
+    li img, li .e { width: 32px; height: 32px; font-size: 28px; text-align: center; }
+    small { opacity: .7; }
+  </style>
+</head>
+<body>
+  <h1>SreeOS Apps</h1>
+  <p>The official app catalog for <a href="https://github.com/SreeOS/sreeos">SreeOS</a>. In SreeOS open
+    <b>App Store → Sources</b> and add <code id="url"></code></p>
+  <ul id="apps" style="list-style:none;padding:0"></ul>
+  <script>
+    document.getElementById('url').textContent = location.href.replace(/index\.html$/, '');
+    fetch('index.json').then((r) => r.json()).then(({ apps }) => {
+      for (const a of apps) {
+        const li = document.createElement('li');
+        const icon = a.icon && /^(data:|https:)/.test(a.icon) ? Object.assign(document.createElement('img'), { src: a.icon, alt: '' }) : Object.assign(document.createElement('span'), { className: 'e', textContent: a.icon ?? '📦' });
+        const text = document.createElement('div');
+        text.append(Object.assign(document.createElement('b'), { textContent: `${a.name} ` }), Object.assign(document.createElement('small'), { textContent: `${a.version} · ${a.author ?? ''} · ${a.description ?? ''}` }));
+        li.append(icon, text);
+        document.getElementById('apps').append(li);
+      }
+    });
+  </script>
+</body>
+</html>
